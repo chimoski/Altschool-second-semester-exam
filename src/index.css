@@ -16,6 +16,19 @@ body {
 		@apply border-b-[5px] border-b-[blue];
 	}
 }
+.btn {
+	
+}
+.btn.btn-primary {
+	background : #090C9B;
+	color : #fff;
+}
+.btn.btn-secondary {
+	background : #fff;
+	color : #090C9B;
+	box-shadow: 0 0 0 1.5px #090C9B inset;
+}
+
 .noscrollbar::-webkit-scrollbar {
 	display: none;
 }

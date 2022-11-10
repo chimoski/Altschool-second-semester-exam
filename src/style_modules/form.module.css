@@ -1,0 +1,23 @@
+
+.label {
+    transform : translateY(-50%);
+    top : 50%;
+    left : 10px;
+    color : #DADADA;
+    padding : 5px 10px;
+    transition : all 0.1s ease-in;
+    pointer-events : none;
+}
+
+input[type=text]:focus ~ .label, input[type=password]:focus ~ .label, input[type=text]:valid ~ .label, input[type=password]:valid ~ .label {
+    top : 0;
+    font-size : 0.8rem;
+}
+
+input[type=text]:valid ~ .label, input[type=password]:valid ~ .label {
+    color : #dadada;
+}
+
+input[type=text]:focus ~ .label, input[type=password]:focus ~ .label {
+    color : #090C9B;
+}
